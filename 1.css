@@ -1,0 +1,134 @@
+body{
+   margin: 0;
+   padding: 0;
+}
+.barra {
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column; 
+  width: 100%;
+}
+
+.barra1 {
+  display: flex;
+  justify-content: flex-end;
+  padding: 5px 20px;
+  font-size: 12px;
+  border-bottom: 1px solid gray;
+}
+
+.textochico {
+  display: flex;
+  gap: 15px;
+  
+}
+.textochico a{
+    color: white;
+    font-size: 10px;
+}
+
+.barra2{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.fifa {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 40px;
+  margin-right: 20px;
+}
+
+.menu {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+  font-size: 11px;
+}
+
+.top a {
+  color: white;
+  text-decoration: none;
+}
+.cards {
+  display: grid;
+  grid-template-columns: repeat(4, 300px);
+  gap: 20px;
+  justify-content: center;
+}
+
+.card {
+  border-radius:0px;
+  overflow: hidden;
+  background-color: white;
+}
+
+.card-top {
+  height: 90px;
+  padding: 15px;
+  position: relative;
+}
+
+.card-top h3 {
+  margin-top: 40px;
+  font-size: 24px;
+}
+
+.bandera {
+  width: 30px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.card-bottom {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.izquierda {
+  color: gray;
+}
+
+.derecha {
+  text-align: right;
+  font-weight: bold;
+}
+
+.alemania {
+  background-color:black;
+  color:white
+}
+.arabia{
+background-color: #27a550;
+}
+.argelia{
+ background-color:#00a067;
+}
+.argentina{
+background-color: #9cc9f2;
+}
+.australia{
+background-color: #efb500;
+}
+.austria{
+background-color: #ed3d32;
+}
+.brasil{
+background-color: #ffcf25;
+}
+.belgica{
+background-color:#880029;
+}
